@@ -1,4 +1,4 @@
-//TODO: UNIVA-GIT-004: Add at least 2 more VIP locations.
+//TODO: UNIVA-GIT-004: Add at least 4 more VIP locations.
 
 const theaters = [
   {

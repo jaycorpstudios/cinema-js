@@ -1,5 +1,8 @@
 const Theaters = new (require('./classes/Theaters.js'))();
 const Movies = new (require('./classes/Movies.js'))();
+const CONFIG = {
+  appName: 'ShowTime NodeApp'
+}
 
 
 //TODO: UNIVA-GIT-003: Increase value to be at least 5;
@@ -9,7 +12,7 @@ const VIP_HIGH_AVAILABILITY = 2;
 class CinemasApp{
 
   initShowTimes(){
-    console.log(`¡Bienvenidos a ShowTime App!`);
+    console.log(`¡Bienvenidos a ${CONFIG.appName}!`);
     console.log(`Los cines disponibles en la región son: \n`);
     Theaters.showTheatersInfo();
 

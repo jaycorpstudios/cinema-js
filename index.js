@@ -1,7 +1,7 @@
 const Theaters = new (require('./classes/Theaters.js'))();
 const Movies = new (require('./classes/Movies.js'))();
 const CONFIG = {
-  appName: 'ShowTime NodeApp'
+  appName: 'ShowTimeApp'
 }
 
 

@@ -9,7 +9,7 @@ module.exports = class Movies{
     moviesOrderedByStars = this.orderByStars(moviesOrderedByStars);
 
     //TODO: UNIVA-GIT-008: replace moviesData.forEach for moviesOrderedByStars.forEach
-    moviesData.forEach( movie => {
+    moviesOrderedByStars.forEach( movie => {
       console.log(`${movie.title}, Rank de la crítica: ${movie.stars}`);
     });
   }

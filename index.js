@@ -6,7 +6,7 @@ const CONFIG = {
 
 
 //TODO: UNIVA-GIT-003: Increase value to be at least 5;
-const VIP_HIGH_AVAILABILITY = 2;
+const VIP_HIGH_AVAILABILITY = 5;
 
 
 class CinemasApp{

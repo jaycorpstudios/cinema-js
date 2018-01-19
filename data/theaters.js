@@ -37,6 +37,42 @@ const theaters = [
     state: 'Jalisco',
     hasVIP: true
   }
+  {
+    name: 'Cinépolis Central Camionera',
+    id: 5,
+    brand: 'Cinepolis',
+    location: { lat: 20.674011, long: -103.381058 },
+    street: 'Av. centro 2051',
+    state: 'Jalisco',
+    hasVIP: true
+  },
+  {
+    name: 'Cinépolis HotLine',
+    id: 6,
+    brand: 'Cinepolis',
+    location: { lat: 20.674011, long: -103.381058 },
+    street: 'Av. 331009506 4946',
+    state: 'Jalisco',
+    hasVIP: true
+  },
+  {
+    name: 'Cinépolis silopenic',
+    id: 7,
+    brand: 'Cinepolis',
+    location: { lat: 20.674011, long: -103.381058 },
+    street: 'Av. fondo de bikini 5261',
+    state: 'Jalisco',
+    hasVIP: true
+  },
+  {
+    name: 'Cinépolis Uganda',
+    id: 8,
+    brand: 'Cinepolis',
+    location: { lat: 20.674011, long: -103.381058 },
+    street: 'Av. da wae',
+    state: 'Uganda',
+    hasVIP: true
+  },
 ];
 
 module.exports = theaters;

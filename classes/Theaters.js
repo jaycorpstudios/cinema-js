@@ -18,8 +18,8 @@ module.exports = class Theaters{
     theatersData.forEach( theater => {
 
       //TODO: UNIVA-GIT-002: Modify to also display Address.
-      console.log(`🏨 ${theater.name}`)
-      //console.log(`🏨 ${theater.name} 📍 Dirección: ${theater.street}, ${theater.state}`)
+      //console.log(`🏨 ${theater.name}`)
+      console.log(`🏨 ${theater.name} 📍 Dirección: ${theater.street}, ${theater.state}`)
 
     });
   }
@@ -32,7 +32,7 @@ module.exports = class Theaters{
         vipCount++;
       }
     });
-    return 0;
+    return vipCount;
   }
 
 }

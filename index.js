@@ -1,8 +1,8 @@
 const Theaters = new (require('./classes/Theaters.js'))();
 const Movies = new (require('./classes/Movies.js'))();
-const CONFIG = {
-  appName: 'ShowTime NodeApp'
-}
+  const CONFIG = {
+    appName: 'ShowTime NodeApp'
+  }
 
 
 //TODO: UNIVA-GIT-003: Increase value to be at least 5;

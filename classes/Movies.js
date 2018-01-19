@@ -4,8 +4,8 @@ module.exports = class Movies{
 
 
   displayMovies(){
-    //TODO: UNIVA-GIT-007: Order by stars first.
-    let moviesOrderedByStars = moviesData.sort();
+
+    let moviesOrderedByStars = moviesData.slice(0);
     moviesOrderedByStars = this.orderByStars(moviesOrderedByStars);
 
     //TODO: UNIVA-GIT-008: replace moviesData.forEach for moviesOrderedByStars.forEach

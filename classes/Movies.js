@@ -8,7 +8,7 @@ module.exports = class Movies{
     let moviesOrderedByStars = moviesData.slice(0);
     moviesOrderedByStars = this.orderByStars(moviesOrderedByStars);
 
-    
+
     moviesOrderedByStars.forEach( movie => {
       console.log(`${movie.title}, Rank de la crítica: ${movie.stars}`);
     });

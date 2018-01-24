@@ -6,7 +6,7 @@ const CONFIG = {
 
 
 //TODO: UNIVA-GIT-003: Increase value to be at least 5;
-const VIP_HIGH_AVAILABILITY = 2;
+const VIP_HIGH_AVAILABILITY = 5;
 
 
 class CinemasApp{
@@ -26,9 +26,9 @@ class CinemasApp{
     Movies.displayMovies();
 
 
-    //TODO: UNIVA-GIT-009: Uncomment the followed two lines:
-    //console.log(`Los directores mas mencionados son: \n`);
-    //Movies.displayDirectors();
+
+    console.log(`Los directores mas mencionados son: \n`);
+    Movies.displayDirectors();
 
   }
 

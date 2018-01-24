@@ -26,9 +26,9 @@ class CinemasApp{
     Movies.displayMovies();
 
 
-    //TODO: UNIVA-GIT-009: Uncomment the followed two lines:
-    //console.log(`Los directores mas mencionados son: \n`);
-    //Movies.displayDirectors();
+
+    console.log(`Los directores mas mencionados son: \n`);
+    Movies.displayDirectors();
 
   }
 

@@ -14,9 +14,10 @@ module.exports = class Movies{
     });
   }
 
-  //TODO: UNIVA-GIT-009: Implement a function similar to displayMovies.
   displayDirectors(){
-    console.log();
+    moviesData.forEach( movie => {
+      console.log(`${movie.director}`);
+    });
   }
 
   //TODO: UNIVA-GIT-008: Implement a sort function base on movie.stars, Google: Array.sort documentation if you're not familiar with JS Syntax.

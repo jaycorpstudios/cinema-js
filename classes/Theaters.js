@@ -16,11 +16,7 @@ module.exports = class Theaters{
 
   showTheatersInfo(){
     theatersData.forEach( theater => {
-
-      //TODO: UNIVA-GIT-002: Modify to also display Address.
-      console.log(`🏨 ${theater.name}`)
-      //console.log(`🏨 ${theater.name} 📍 Dirección: ${theater.street}, ${theater.state}`)
-
+      console.log(`🏨 ${theater.name} 📍 Dirección: ${theater.street}, ${theater.state}`)
     });
   }
 

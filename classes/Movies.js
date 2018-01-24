@@ -7,8 +7,7 @@ module.exports = class Movies{
 
     let moviesOrderedByStars = moviesData.slice(0);
     moviesOrderedByStars = this.orderByStars(moviesOrderedByStars);
-
-
+ 
     moviesOrderedByStars.forEach( movie => {
       console.log(`${movie.title}, Rank de la crítica: ${movie.stars}`);
     });
@@ -20,9 +19,11 @@ module.exports = class Movies{
     });
   }
 
-  //TODO: UNIVA-GIT-008: Implement a sort function base on movie.stars, Google: Array.sort documentation if you're not familiar with JS Syntax.
   orderByStars(movies){
-    return movies;
+ let orderR = movies.sort(function(a,b){
+   return a.stars < b.stars;
+ });
+    return orderR;
   }
 
 

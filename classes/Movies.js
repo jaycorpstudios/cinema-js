@@ -4,9 +4,10 @@ module.exports = class Movies{
 
 
   displayMovies(){
-    //TODO: UNIVA-GIT-007: Order by stars first.
+
     let moviesOrderedByStars = moviesData.slice(0);
     moviesOrderedByStars = this.orderByStars(moviesOrderedByStars);
+ 
     moviesOrderedByStars.forEach( movie => {
       console.log(`${movie.title}, Rank de la crítica: ${movie.stars}`);
     });

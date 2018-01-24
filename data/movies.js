@@ -2,6 +2,11 @@
 
 const movies = [
   {
+    title: 'Matrix',
+    stars: 3,
+    director: 'The Wachowski Brothers'
+  },
+  {
     title: 'Star Wars: Los Últimos Jedi',
     stars: 4,
     director: 'Rian Johnson'
@@ -14,6 +19,16 @@ const movies = [
   {
     title: 'La Forma del Agua',
     stars: 5,
+    director: 'Guillermo Del Toro'
+  },
+  {
+    title: 'Pacific Rim',
+    stars: 5,
+    director: 'Guillermo Del Toro'
+  },
+  {
+    title: 'Hellboy',
+    stars: 4,
     director: 'Guillermo Del Toro'
   }
 ];

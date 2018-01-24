@@ -1,4 +1,4 @@
-//TODO: UNIVA-GIT-004: Add at least 4 more VIP locations.
+
 
 const theaters = [
   {
@@ -36,6 +36,42 @@ const theaters = [
     street: 'Valparaiso 2367',
     state: 'Jalisco',
     hasVIP: true
+  },
+  {
+    name: 'Cinépolis la Gran Plaza',
+    id: 5,
+    brand: 'Cinepolis',
+    location: { lat: 21.601587, long: -105.125878 },
+    street: 'Av Ignacio',
+    state: 'Jalisco',
+    hasVIP: true
+  },
+  {
+    name: 'Cinépolis la Normal',
+    id: 6,
+    brand: 'Cinépolis',
+    location: { lat: 22.567123, long: -107.093214 },
+    street: 'Av Manuel Ávila Camacho 1275',
+    state: 'Jalisco',
+    hasVIP: false
+  },
+  {
+    name: 'Cinemex Sania',
+    id: 7,
+    brand: 'Cinemex',
+    location: { lat: 26.678954, long: -102.345612 },
+    street: 'Av. Ignacio L. Vallarta 3300',
+    state: 'Jalisco',
+    hasVIP: false
+  },
+  {
+    name: 'Cinemex Plaza Milenium',
+    id: 8,
+    brand: 'Cinemex',
+    location: { lat: 29.345876, long: -108.543276 },
+    street: 'Av López Mateos 3333',
+    state: 'Jalisco',
+    hasVIP: false
   }
 ];
 

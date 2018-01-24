@@ -32,7 +32,7 @@ module.exports = class Theaters{
         vipCount++;
       }
     });
-    return 0;
+    return vipCount * 2;
   }
 
 }

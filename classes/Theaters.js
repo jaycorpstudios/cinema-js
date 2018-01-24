@@ -27,7 +27,7 @@ module.exports = class Theaters{
         vipCount++;
       }
     });
-    return vipCount;
+    return vipCount + 0;
   }
 
 }
